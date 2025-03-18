@@ -1,0 +1,23 @@
+{
+  "name": "forkify",
+  "description": "Recipe App",
+  "author": "Mihraç Comart",
+  "version": "1.0.0",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.13.3",
+    "parcel": "^2.13.3",
+    "sass": "^1.26.10",
+    "svgo": "^3.3.2"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.7"
+  }
+}

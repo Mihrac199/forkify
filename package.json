@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
-    "sass": "sass --watch sass:css"
+    "sass": "sass --watch src/sass/main.scss:src/css/style.css"
   },
   "license": "ISC",
   "devDependencies": {

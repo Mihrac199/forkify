@@ -6,7 +6,8 @@
   "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ./dist"
+    "build": "parcel build index.html --dist-dir ./dist",
+    "sass": "sass --watch sass:css"
   },
   "license": "ISC",
   "devDependencies": {
